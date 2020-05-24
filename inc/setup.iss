@@ -58,11 +58,7 @@ TimeStampsInUTC=false
 #DEFINE UNINSTALLDIR "{app}\uninstall"
 UninstallFilesDir={#UNINSTALLDIR}
 
-; Allow normal users to install the addin into their profile.
-; This directive also ensures that the uninstall information is
-; stored in the user profile rather than a system folder (which
-; would require administrative rights).
-PrivilegesRequired=lowest
+PrivilegesRequired=admin
 
 InternalCompressLevel=max
 SolidCompression=true
